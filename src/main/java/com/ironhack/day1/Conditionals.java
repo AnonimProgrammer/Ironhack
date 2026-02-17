@@ -33,5 +33,24 @@ public class Conditionals {
             case "Saturday", "Sunday" -> System.out.println("Weekend!");
             default -> System.out.println("Invalid weekday!");
         }
+
+        String randomVeryLongString = "adbadadjadadk-adadj01et78t-981301u3uqiodhalk.djald";
+        randomVeryLongString = randomVeryLongString.replace('-', '+');
+//        System.out.println(randomVeryLongString.substring(10, 25));
+
+        String amount = "100.50$";
+//        System.out.println(amount.replace("$", "USD"));
+
+        String formattedString = String.format("The member has %d points and is in the %s tier.", memberPoints, tier);
+//        System.out.println(formattedString);
+
+        String[] drinks = {"Latte", "Espresso", "Cappuccino"};
+        for (int i = 0; i < drinks.length; i++) {
+            String result = String.format("%d. %s", i + 1, drinks[i]);
+            System.out.println(result);
+        }
+
+        StringBuilder sb = new StringBuilder("woem");
+        System.out.println(sb.reverse());
     }
 }
