@@ -1,6 +1,6 @@
 package com.ironhack.day1;
 
-public class Main {
+public class FoundationalDataTypes {
     public static void main(String[] args) {
         String result = "";
 
