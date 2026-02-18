@@ -1,6 +1,6 @@
 package com.ironhack.day1;
 
-public class DataTypes {
+public class CFU_DataTypes {
     public static void main(String[] args) {
 //        Exercise 1
         int valueInt = 28;
